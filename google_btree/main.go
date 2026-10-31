@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/google/btree"
-	"github.com/tidwall/btype-bench/tools/support"
+	"github.com/tidwall/btree-bench/tools/support"
 )
 
 func bench0[T support.KeyType]() {

@@ -27,8 +27,8 @@ run() {
     echo "C: `$CC --version | grep -m1 ""`"
     echo "C++: `$CXX --version | grep -m1 ""`"
 
-    tidwall_btype/run.sh
     tidwall_btree/run.sh
+    tidwall_btree_v1/run.sh
     google_btree/run.sh
     rust_btree/run.sh
     tidwall_bgen/run.sh
