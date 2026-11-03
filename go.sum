@@ -1,5 +1,7 @@
 github.com/google/btree v1.1.3 h1:CVpQJjYgC4VbzxeGVHfvZrv1ctoYCAI8vbl07Fcxlyg=
 github.com/google/btree v1.1.3/go.mod h1:qOPhT0dTNdNzV6Z/lhRX0YXUafgPLFUh+gZMl761Gm4=
+github.com/richardartoul/bbtree-go v0.0.0-20261026211943-262b0b294d30 h1:e1Y6nvi5meFnnTTQlVhLf7Vruknwggl37kkYSm/JcaA=
+github.com/richardartoul/bbtree-go v0.0.0-20261026211943-262b0b294d30/go.mod h1:7VXyFmJFvQEgZy0x8gqPtcPS4lHdShp37qFotinxkvs=
 github.com/tidwall/btree v1.8.2 h1:mTY5iM4UTh2e80TG7RHDQQmnAY3xGNQA/DbU0olkhkA=
 github.com/tidwall/btree v1.8.2/go.mod h1:jBbTdUWhSZClZWoDg54VnvV7/54modSOzDN7VXftj1A=
 github.com/tidwall/btree/v2 v2.0.0 h1:OLfPRrwebFCBeqeMNZnOmY3RDf3ZcX6mQrWXiOEunfw=

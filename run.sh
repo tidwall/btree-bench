@@ -27,12 +27,13 @@ run() {
     echo "C: `$CC --version | grep -m1 ""`"
     echo "C++: `$CXX --version | grep -m1 ""`"
 
+    richardartoul_bbtree/run.sh
     tidwall_btree/run.sh
-    tidwall_btree_v1/run.sh
-    google_btree/run.sh
-    rust_btree/run.sh
-    tidwall_bgen/run.sh
-    frozenca_btree/run.sh
+    # tidwall_btree_v1/run.sh
+    # google_btree/run.sh
+    # rust_btree/run.sh
+    # tidwall_bgen/run.sh
+    # frozenca_btree/run.sh
 }
 
 run | tee >(sed $'s/\033[[][^A-Za-z]*[A-Za-z]//g' > out.txt)

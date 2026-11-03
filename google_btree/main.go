@@ -15,7 +15,7 @@ func bench0[T support.KeyType]() {
 }
 
 func main() {
-	bench0[int32]()
+	bench0[int64]()
 	bench0[uint64]()
 	bench0[string]()
 }

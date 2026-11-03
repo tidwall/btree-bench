@@ -13,7 +13,7 @@ import (
 )
 
 type KeyType interface {
-	~int32 | ~uint64 | ~string
+	~int64 | ~uint64 | ~string
 }
 
 func shuffle[T any](rng *rand.Rand, slice []T) {
